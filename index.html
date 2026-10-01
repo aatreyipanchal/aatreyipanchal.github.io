@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aatreyi Panchal | Agentic AI Engineer</title>
+<style>
+:root{--bg:#f6f4ff;--card:rgba(255,255,255,.75);--text:#1a1730;--muted:#625f7e;--accent:#6d4aff;--accent2:#ece7ff;--line:rgba(109,74,255,.15);--g:linear-gradient(120deg,#6d4aff,#e0489b);--shadow:0 10px 30px rgba(109,74,255,.12);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0b1a;--card:rgba(28,24,52,.7);--text:#f1efff;--muted:#a9a5c9;--accent:#a08bff;--accent2:rgba(160,139,255,.14);--line:rgba(160,139,255,.18);--shadow:0 10px 30px rgba(0,0,0,.35)}}
+:root[data-theme="dark"]{--bg:#0d0b1a;--card:rgba(28,24,52,.7);--text:#f1efff;--muted:#a9a5c9;--accent:#a08bff;--accent2:rgba(160,139,255,.14);--line:rgba(160,139,255,.18);--shadow:0 10px 30px rgba(0,0,0,.35)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 "Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;position:relative}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(600px 400px at 85% -5%,rgba(224,72,155,.22),transparent 70%),radial-gradient(700px 500px at 5% 5%,rgba(109,74,255,.25),transparent 70%)}
+a{color:var(--accent);text-decoration:none}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--card);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:22px;overflow-x:auto;padding:14px 20px;font-size:14px;white-space:nowrap;justify-content:center}
+nav a{color:var(--muted);font-weight:500;transition:color .2s}nav a:hover{color:var(--accent)}
+.hero{padding:84px 0 48px;text-align:center}
+.hero small{display:inline-block;color:var(--accent);background:var(--accent2);border:1px solid var(--line);padding:6px 16px;border-radius:999px;font-weight:600;font-size:13px;letter-spacing:.04em}
+h1{font-size:clamp(40px,9vw,72px);line-height:1.05;margin:20px 0 16px;letter-spacing:-.02em;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--muted);max-width:600px;margin:0 auto;font-size:19px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px;justify-content:center}
+.btn{padding:11px 22px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);font-size:14px;font-weight:600;transition:transform .2s,box-shadow .2s}
+.btn.p{background:var(--g);color:#fff;border-color:transparent}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+section{padding:40px 0}
+h2{font-size:28px;margin:0 0 22px;letter-spacing:-.01em;display:flex;align-items:center;gap:12px}
+h2::before{content:"";width:6px;height:28px;border-radius:4px;background:var(--g)}
+.card{background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--line);border-radius:18px;padding:22px;margin-bottom:16px;box-shadow:var(--shadow);transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.card h3{margin:0;font-size:19px}
+.meta{color:var(--accent);font-size:13px;font-weight:600;margin:2px 0 10px}
+ul{margin:8px 0 0;padding-left:20px;color:var(--muted)}li{margin:5px 0}li::marker{color:var(--accent)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--accent2);color:var(--accent);border:1px solid var(--line);padding:4px 13px;border-radius:999px;font-size:13px;font-weight:600}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.grid .card{margin:0}
+.skill h3{font-size:14px;margin:0 0 12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+#experience .card{border-left:4px solid var(--accent)}
+.links{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.links a{font-size:13px;font-weight:600;padding:7px 16px;border-radius:10px;border:1px solid var(--accent)}
+.links a.live{background:var(--g);color:#fff;border-color:transparent}
+footer{padding:40px 0 60px;text-align:center;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</div></nav>
+
+<main class="wrap">
+<header class="hero">
+<small>Agentic AI Engineer · Hyderabad, India</small>
+<h1>Aatreyi Panchal</h1>
+<p>I design and deploy multi-agent, RAG and LLM systems that run in production: fast, reliable and built to scale.</p>
+<div class="btns">
+<a class="btn p" href="#projects">View Projects</a>
+<a class="btn" data-link="github" target="_blank" rel="noopener">GitHub</a>
+<a class="btn" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="mailto:aatreyijpanchal@gmail.com" target="_blank" rel="noopener" data-mail>Email me</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About</h2>
+<div class="card">
+<p style="margin:0">Agentic AI Engineer with 2+ years of experience designing and deploying Generative AI, agentic and machine learning systems in production. My expertise spans multi-agent orchestration, LLM orchestration, Retrieval-Augmented Generation (RAG) and vector databases, backed by a strong foundation in MLOps, cloud infrastructure (AWS, Azure) and scalable Python APIs with FastAPI. I focus on AI solutions that improve efficiency, accuracy and user experience at scale.</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card skill"><h3>Languages &amp; Frameworks</h3><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Streamlit</span><span class="chip">REST APIs</span></div></div>
+<div class="card skill"><h3>AI / ML</h3><div class="chips"><span class="chip">Generative AI</span><span class="chip">Agentic AI</span><span class="chip">RAG</span><span class="chip">Multi-Agent Systems</span><span class="chip">Deep Learning</span><span class="chip">Finetuning</span><span class="chip">Model Evaluation</span></div></div>
+<div class="card skill"><h3>LLM Tools</h3><div class="chips"><span class="chip">LangChain</span><span class="chip">LangGraph</span><span class="chip">Hugging Face</span><span class="chip">LLaMA</span><span class="chip">Function Calling</span><span class="chip">Prompt Engineering</span></div></div>
+<div class="card skill"><h3>APIs &amp; Models</h3><div class="chips"><span class="chip">OpenAI</span><span class="chip">Anthropic Claude</span><span class="chip">Groq</span><span class="chip">Whisper</span></div></div>
+<div class="card skill"><h3>Vector Databases</h3><div class="chips"><span class="chip">ChromaDB</span><span class="chip">Qdrant</span><span class="chip">FAISS</span><span class="chip">Pinecone</span></div></div>
+<div class="card skill"><h3>Databases</h3><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">SQLite</span><span class="chip">SSMS</span></div></div>
+<div class="card skill"><h3>Computer Vision</h3><div class="chips"><span class="chip">PyTorch</span><span class="chip">YOLOv8</span><span class="chip">OpenCV</span></div></div>
+<div class="card skill"><h3>Cloud &amp; DevOps</h3><div class="chips"><span class="chip">AWS (EC2, S3)</span><span class="chip">Azure</span><span class="chip">Docker</span><span class="chip">Linux</span><span class="chip">Git</span><span class="chip">GitHub Actions</span><span class="chip">CI/CD</span></div></div>
+<div class="card skill"><h3>Data Engineering</h3><div class="chips"><span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">Azure Data Factory</span><span class="chip">Databricks</span><span class="chip">ETL</span></div></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Experience</h2>
+<div class="card"><h3>Associate AI Engineer · Grabon</h3><div class="meta">Jun 2026 – Aug 2026</div>
+<ul><li>Built and automated end-to-end Python workflow pipelines, cutting repetitive manual effort.</li><li>Designed and deployed multi-agent AI systems for autonomous handling of multi-step business workflows.</li><li>Collaborated on production deployment of AI services with reliable integration into existing systems.</li></ul></div>
+<div class="card"><h3>AI/ML Engineer · MobileFirst Applications</h3><div class="meta">Mar 2025 – May 2026</div>
+<ul><li>Built production-grade GenAI and LLM applications using LangChain and LangGraph.</li><li>Designed multi-hop RAG pipelines with semantic chunking and re-ranking for document understanding and compliance workflows.</li><li>Implemented ChromaDB and Qdrant vector search with sub-100ms retrieval across large document datasets.</li><li>Developed FastAPI microservices for AI inference, reducing response latency by 35%.</li><li>Containerized with Docker and deployed on AWS/Azure, achieving 99.9% uptime.</li></ul></div>
+<div class="card"><h3>AI/ML Trainee · MobileFirst Applications</h3><div class="meta">Aug 2024 – Feb 2025</div>
+<ul><li>Developed LLM chatbots with LangChain agents and FAISS, reducing manual data lookup by 60%.</li><li>Applied prompt engineering and orchestration techniques, improving response accuracy by 30%.</li><li>Integrated NLP modules into enterprise products, contributing to successful production releases.</li></ul></div>
+<div class="card"><h3>Data Scientist &amp; Data Engineer Intern · PGP Glass</h3><div class="meta">Jan 2024 – May 2024</div>
+<ul><li>Built ETL pipelines with Azure Data Factory and Databricks, reducing manual processing time by 40%.</li><li>Developed regression models for shipment delays, improving forecasting accuracy by 25%.</li><li>Applied feature engineering and hyperparameter tuning, lifting model performance by 15%.</li></ul></div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="card"><h3>AI Knowledge Copilot</h3>
+<div class="meta">Multi-agent · LLaMA 3.3 70B · Groq · RAG</div>
+<ul><li>Multi-agent system for documents, tabular data and web search.</li><li>RAG-based PDF search, real-time web retrieval and dynamic chart generation.</li><li>Intelligent query routing that reduced irrelevant responses by 45%.</li></ul>
+<div class="links"><a class="live" data-link="knowledgeLive" target="_blank" rel="noopener">Live App</a><a data-link="knowledgeGit" target="_blank" rel="noopener">GitHub</a></div></div>
+<div class="card"><h3>AutoML Platform</h3>
+<div class="meta">Zero-code · Tabular + Computer Vision · PyTorch</div>
+<ul><li>Cut model development time by 70% with a zero-code AutoML workflow.</li><li>Automated EDA, model comparison and leaderboard ranking.</li><li>Deployed PyTorch CNN models with real-time inference and production-ready export.</li></ul>
+<div class="links"><a class="live" data-link="automlLive" target="_blank" rel="noopener">Live App</a><a data-link="automlGit" target="_blank" rel="noopener">GitHub</a></div></div>
+<div class="card"><h3>The Guard: AI Evaluation Pipeline</h3>
+<div class="meta">CI/CD · Statistical testing · Python</div>
+<ul><li>Statistical evaluation framework (Paired Bootstrap, McNemar's, Welch's t-test) detecting regressions at p&lt;0.05.</li><li>6 task-specific scorers and 170 test cases across GPT-4o-Mini, Gemini 2.5 Flash and LLaMA 3.1.</li><li>Evaluation runtime cut from 15 to ~3 minutes with bounded parallel execution; prompt versioning with Git metadata.</li></ul>
+<div class="links"><a data-link="guardGit" target="_blank" rel="noopener">GitHub</a></div></div>
+<div class="card"><h3>Multi-Sport Computer Vision Analytics</h3>
+<div class="meta">YOLOv8 · Pose estimation</div>
+<ul><li>YOLOv8 pipelines for pose estimation and movement tracking.</li><li>Biomechanical analytics for performance insights and athlete monitoring.</li></ul></div>
+</section>
+
+<section id="education">
+<h2>Education &amp; Certifications</h2>
+<div class="card"><h3>B.Tech, Computer Science (AI &amp; Data Science)</h3><div class="meta">ITM SLS Baroda University · 2020 – 2024 · GPA 7.52/10</div></div>
+<div class="card"><ul style="margin:0">
+<li><b>Databricks Generative AI Fundamentals</b>: Databricks Academy, Mar 2026</li>
+<li><b>Databricks Fundamentals</b>: Databricks Academy, Mar 2026</li>
+<li><b>AI Engineer Agentic Track: Complete Agent &amp; MCP Course</b>: Udemy, Apr 2026</li>
+<li><b>Accenture Data Analytics &amp; Visualization Simulation</b>: Forage, Jun 2024</li></ul></div>
+</section>
+
+<section id="contact">
+<h2>Let's work together</h2>
+<div class="card">
+<p style="margin-top:0">Open to roles and projects in agentic AI, LLM systems and RAG.</p>
+<div class="btns" style="margin-top:0">
+<a class="btn p" href="mailto:aatreyijpanchal@gmail.com" target="_blank" rel="noopener" data-mail>aatreyijpanchal@gmail.com</a>
+<a class="btn" href="tel:+919726174705" target="_blank" rel="noopener">+91 97261 74705</a>
+<a class="btn" data-link="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" data-link="github" target="_blank" rel="noopener">GitHub</a>
+</div></div>
+</section>
+</main>
+<footer>© 2026 Aatreyi Panchal · Hyderabad, India</footer>
+
+<script>
+// Edit these URLs. Empty live links are hidden automatically.
+var L={
+ github:"https://github.com/aatreyipanchal",
+ linkedin:"https://linkedin.com/in/aatreyi-panchal",
+ knowledgeLive:"", knowledgeGit:"https://github.com/aatreyipanchal",
+ automlLive:"", automlGit:"https://github.com/aatreyipanchal",
+ guardGit:"https://github.com/aatreyipanchal"
+};
+document.querySelectorAll("[data-link]").forEach(function(a){
+ var u=L[a.dataset.link];
+ if(u){a.href=u}else{a.style.display="none"}
+});
+
+var E="aatreyijpanchal@gmail.com";
+document.querySelectorAll("[data-mail]").forEach(function(a){
+ var t=a.textContent;
+ a.addEventListener("click",function(e){
+  e.preventDefault();
+  try{navigator.clipboard.writeText(E)}catch(x){
+   try{var i=document.createElement("textarea");i.value=E;document.body.appendChild(i);i.select();document.execCommand("copy");i.remove()}catch(y){}
+  }
+  a.textContent="Copied: "+E;
+  setTimeout(function(){a.textContent=t},2500);
+  try{window.open("mailto:"+E,"_blank")}catch(z){}
+ });
+});
+</script>
+</body>
+</html>
